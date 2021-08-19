@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- Player  -->
+    <main class="player">
+      <video
+        src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        poster="assets/images/poster.jpg"
+        class="video"
+      ></video>
+
+      <!-- Controls -->
+
+      <nav class="controls">
+        <button class="buttom play">
+          <i class="fa fa-play"></i>
+        </button>
+        <button class="buttom stop">
+          <i class="fa fa-stop"></i>
+        </button>
+        <input type="range" class="progress" />
+        <small class="timestamp"> 00:00 </small>
+      </nav>
+    </main>
+  </body>
+</html>
