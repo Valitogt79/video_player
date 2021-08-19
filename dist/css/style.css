@@ -1,7 +1,7 @@
 /* General */
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -16,20 +16,21 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* Player */
 .player {
   background-color: gray;
   -webkit-box-shadow: 2px 2px 1rem black;
-          box-shadow: 2px 2px 1rem black;
+  box-shadow: 2px 2px 1rem black;
   max-width: 1280px;
   min-width: 320px;
+  border-radius: 0 0 15px 15px;
 }
 
 video {
@@ -44,11 +45,11 @@ video {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -68,8 +69,8 @@ video {
 
 .controls .progress {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   cursor: pointer;
 }
 
